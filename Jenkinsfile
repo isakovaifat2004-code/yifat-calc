@@ -6,7 +6,7 @@ pipeline {
         AWS_REGION = 'us-east-1'
         ECR_REPO = 'calculator-app'
         IMAGE_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
-        PROD_IP = '10.0.1.77'  // <-- לשנות ל-PRIVATE IP של השרת השני
+        PROD_IP = '10.0.1.77'  
     }
 
     stages {
